@@ -1,8 +1,0 @@
-﻿CREATE TABLE "Insurance" (
-  "PolicyNumber" SERIAL PRIMARY KEY,
-  "PolicyName" VARCHAR(50) NOT NULL,
-  "PolicyHolderName" VARCHAR(50) NOT NULL,
-  "Email" VARCHAR(255) NOT NULL,
-  "PolicyTenure" int,
-  "PolicyAmount" decimal
-);
